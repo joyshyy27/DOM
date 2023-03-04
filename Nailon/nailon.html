@@ -1,0 +1,65 @@
+<html>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <head>
+            <h1>Dom Example</h1>
+
+            <style>
+                .redBtn {
+                    height: 100px;
+                    width: 200px;
+                    background-color: red;
+                    border-radius: 50%;
+                }
+
+                .blueBtn {
+                    height: 100px;
+                    width: 200px;
+                    background-color: blue;
+                    border-radius: 50%;
+                }
+
+                .greenBtn {
+                    height: 100px;
+                    width: 200px;
+                    background-color: green;
+                    border-radius: 50%;
+                }
+            </style>
+        </head>
+    </center>
+
+    <body>
+        <center>
+            <h1>Me First</h1>
+
+            <button class="redBtn">red</button>
+            <button class="blueBtn">blue</button>
+            <button class="greenBtn">green</button>
+        </center>
+
+        <script>
+            var red = document.querySelector(".redBtn");
+            red.addEventListener("click", function(){
+                document.querySelector("body").style.background = "red";
+            });
+
+            var blue = document.querySelector(".blueBtn");
+            blue.addEventListener("click", function(){
+                document.querySelector("body").style.background = "blue";
+            });
+
+            var green = document.querySelector(".greenBtn");
+            green.addEventListener("click", function(){
+                document.querySelector("body").style.background = "green";
+            });
+        </script>
+        
+    </body>
+
+    <center>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias, numquam maxime repellendus ipsam nostrum!</p>
+        </div>
+    </center>
+</html>

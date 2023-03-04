@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Dom Example</title>
+    </head>
+
+    <body>
+        <h1>Me first</h1>
+
+        <button class="redbtn">skyblue</button>
+        <button class="bluebtn">pink</button>
+        <button class="greenbtn">violet</button>
+        <button class="yellowbtn">yellow</button>
+
+        <h1 class="myTarget">Target</h1>
+        <script>
+            var skyblue = document.querySelector(".skybluebtn");
+            skyblue.addEventListener("click", function(){
+                document.querySelector("body").style.background = "skyblue";
+                });
+
+            var pink = document.querySelector(".pinkbtn");
+            pink.addEventListener("click", function(){
+                document.querySelector("body").style.background = "pink";
+                });
+
+            var violet = document.querySelector(".violetbtn");
+            violet.addEventListener("click", function(){
+                document.querySelector("body").style.background = "violet";
+                });
+
+            var yellow = document.querySelector(".yellowbtn");
+            yellow.addEventListener("click", function(){
+                document.querySelector("body").style.background = "yellow";
+                });
+        </script>
+        <div>
+            <p>A rainbow is a meteorological and optical phenomenon that is caused by reflection, refraction and 
+                <br>dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. 
+                <br>It takes the form of a multicoloured circular arc.</p>
+            <a href="">Feel the power of colors</a>
+        </div>
+    </body>
+</html>
